@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e4e679;
+}
+
+.header {
+    height: 100vh;
+    background: image 0;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    color: rgb(47, 11, 173);
+    font-size: 5rem;
+    text-shadow: 2px 2px 4px black;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #773fdf;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    color: #ff9900;
+}
+
+.navbar .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.section {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.about {
+    display: flex;
+    align-items:left;
+}
+
+.about img {
+    width: 400px;
+    height: 300px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.portfolio img {
+    width: 150%;
+    height: 250px;
+    object-fit: cover;
+}
+
+footer {
+   background-color: rgb(143, 11, 250);
+   text-align: center;
+   width: 100%;
+   height: fit-content;
+   
+
+}
+
+.footer p {
+    color: rgb(17, 3, 12);
+    font-size: 1.2rem;
+}
+.div-1{
+    text-decoration-style:"dotted";
+}
